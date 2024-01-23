@@ -59,7 +59,7 @@ a:hover{
 .sessoes{
     font-family: var(--fonte02);
     font-size: 3vw;
-    font-weight: bold;
+
     line-height: 2em;
     padding: 10px;
     color: var(--cor03);
