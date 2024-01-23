@@ -7,7 +7,7 @@
 }
 
 :root{
-    --cor01: #FFE399;
+    --cor01: #fce6ab;
     --cor02: #FFA020;
     --cor03: #431201;
     --fonte01: 'Xilosa', cursive;
@@ -75,6 +75,7 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.342);
     color: var(--cor01);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
+    font-weight: normal;
     padding: 5px;
     width: 45%;
     height: 30%;
