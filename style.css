@@ -22,6 +22,7 @@
 body{
     background-color: var(--cor01);
     font-family: var(--fonte02);
+    min-height: 100vh;
 }
 
 header{
@@ -32,21 +33,22 @@ header{
     text-align: center;
 }
 
-h1{
+header> h1{
     font-family: var(--fonte01);
-    font-size: 8vw;
-    padding: 15px;
+    font-size: 9vw;
+    font-variant: small-caps;
+    padding-top: 30px;
     margin: 0px;
 }
 
-p{
+header> p{
     font-size: 1.3em;
-    padding: 15px;
+    padding-bottom: 30px;
     margin: 0px;
     font-weight: normal;
 }
 
-p>a, p>a{
+a{
     text-decoration: none;
     color: var(--cor03);
     font-weight: 800;
