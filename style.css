@@ -67,13 +67,13 @@ section{
     color: var(--cor03);
 }
 
-#primeira{
+section#bg01{
     background: black url('imagens/fundo1.jpg') right center no-repeat fixed;
     background-size: cover;
     box-shadow: inset 3px 3px 15px rgba(0, 0, 0, 0.459);
 }
 
-#segunda{
+section#bg02{
     background: black url('imagens/fundo2.jpg') right center no-repeat fixed;
     background-size: cover;
     box-shadow: inset 3px 3px 15px rgba(0, 0, 0, 0.459);
@@ -85,7 +85,7 @@ section.imagem>p{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
     font-weight: normal;
     padding: 5px;
-    width: 40%;
+    width: 50%;
     height: 30%;
 }
 
